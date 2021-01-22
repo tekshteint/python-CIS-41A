@@ -68,6 +68,8 @@ def binaryConvert(var):
     print(var,"converted to binary is:",mod4,mod3,mod2,mod1)
 binaryConvert(a)
 binaryConvert(b)
+print("Binary of a&b is:", bin(a&b))
+print("Binary of a|b is:", bin(a|b))
 placeHolder=1
 while placeHolder != 0:  
     binChoice= input("Please select either a (9) or b (14) to convert to binary\n")
@@ -109,38 +111,52 @@ Binary of a is: 0b1001
 Binary of b is: 0b1110
 9 converted to binary is: 1 0 0 1
 14 converted to binary is: 1 1 1 0
+Binary of a&b is: 0b1000
+Binary of a|b is: 0b1111
 Please select either a (9) or b (14) to convert to binary
 A
 9 converted to binary is: 1 0 0 1
+
 Onto the second script
 Binary of a is: 0b1001
 Binary of b is: 0b1110
 9 converted to binary is: 1 0 0 1
 14 converted to binary is: 1 1 1 0
+Binary of a&b is: 0b1000
+Binary of a|b is: 0b1111
 Please select either a (9) or b (14) to convert to binary
 a
 9 converted to binary is: 1 0 0 1
+
 Onto the second script
 Binary of a is: 0b1001
 Binary of b is: 0b1110
 9 converted to binary is: 1 0 0 1
 14 converted to binary is: 1 1 1 0
+Binary of a&b is: 0b1000
+Binary of a|b is: 0b1111
 Please select either a (9) or b (14) to convert to binary
 B
 14 converted to binary is: 1 1 1 0
+
 Onto the second script
 Binary of a is: 0b1001
 Binary of b is: 0b1110
 9 converted to binary is: 1 0 0 1
 14 converted to binary is: 1 1 1 0
+Binary of a&b is: 0b1000
+Binary of a|b is: 0b1111
 Please select either a (9) or b (14) to convert to binary
 b
 14 converted to binary is: 1 1 1 0
+
 Onto the second script
 Binary of a is: 0b1001
 Binary of b is: 0b1110
 9 converted to binary is: 1 0 0 1
 14 converted to binary is: 1 1 1 0
+Binary of a&b is: 0b1000
+Binary of a|b is: 0b1111
 Please select either a (9) or b (14) to convert to binary
 c
 Please select either a (9) or b (14) to convert to binary
